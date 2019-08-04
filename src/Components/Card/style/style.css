@@ -1,0 +1,62 @@
+.card {
+
+
+    width: 499px;
+    height: 287px;
+    border: 1px solid #747474;
+    border-radius: 7px;
+    background-image: url('../img/blue_abstract_background_310971.jpg');
+    background-size: 499px;
+}
+
+.card h1 {
+    display: flex;
+    margin-right: 19%;
+    justify-content: flex-end;
+    font-weight: bolder;
+
+}
+
+.image {
+    background-image: url('../img/photo-business-credit-debit-card-bank.png');
+    background-size: 50px;
+    background-repeat: no-repeat;
+    height: 50px;
+    margin-left: 5%;
+    margin-top: 7%
+}
+
+.id-number {
+
+    background-color: #fcff6257;
+    font-weight: 600;
+    font-size: 22px;
+    margin-left: 12%;
+    margin-top: 5%;
+    width: 295px;
+    font-size: 29px;
+}
+
+.description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex: 0 0 48%;
+}
+
+.validity {
+    padding: 4% 0 0 0;
+    flex: 0 0 6%;
+}
+
+.card-holder {
+    margin-left: 5%;
+    max-width: 43%;
+}
+
+.image-holder {
+    background-image: url('../img/Visa_Mastercard_Image.jpg');
+    background-size: 50px;
+    background-repeat: no-repeat;
+    height: 64px;
+}
